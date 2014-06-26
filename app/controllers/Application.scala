@@ -8,5 +8,10 @@ object Application extends Controller {
   def index = Action {
     Ok(views.html.index("伊右衛門!"))
   }
+  def tasks = TODO
+
+  def newTask = TODO
+
+  def deleteTask (id: Long) = TODO
 
 }
