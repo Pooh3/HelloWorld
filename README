@@ -1,8 +1,20 @@
-This is your new Play application
+Hroku + Scala + playframework2.2
 =====================================
+make on MacBookAir(Marvericks)
 
-This file will be packaged with your application, when using `play dist`.
+** dependency versions
+- PlayFramework version 2.2.1
+- Scala version 2.10.0
 
 
+** how to make todolist in Heroku
 
-test
+first read
+http://www.playframework.com/documentation/2.1.5/ScalaTodoList
+
+about migration
+http://www.playframework.com/documentation/2.2.x/Migration22
+
+different with official document.
+- Build.scala -> build.sbt
+- Procfile is not need 
