@@ -10,7 +10,7 @@ object ApplicationBuild extends Build {
     val appDependencies = Seq(
         
       "org.scala-tools" %% "scala-stm" % "0.3",
-      "org.apache.derby" % "derby" % "10.4.1.3" % "test"
+      "org.apache.derby" % "derby" % "10.4.1.3" % "test",
       "postgresql" % "postgresql" % "8.4-702.jdbc4"
       
     )
